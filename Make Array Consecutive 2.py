@@ -1,3 +1,7 @@
+# Name = Vipan Kumar
+# GitHub user name = @VipanKumar01
+
+
 def solution(statues):
     temp = 0
     statues.sort()
@@ -7,3 +11,5 @@ def solution(statues):
             temp += statues[i+1] - statues[i] - 1
             
     return temp
+
+# --HappyCode--
